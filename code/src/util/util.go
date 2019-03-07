@@ -38,7 +38,7 @@ func Welcome() {
 	fmt.Println("***********************************")
 }
 
-// strings.Index的UTF-8版本
+// Utf8Index: strings.Index的UTF-8版本
 // 即 Utf8Index("Go语言中文网", "学习") 返回 4，而不是strings.Index的 8
 func Utf8Index(str, substr string) int {
 	asciiPos := strings.Index(str, substr)

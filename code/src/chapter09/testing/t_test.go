@@ -9,7 +9,7 @@ import (
 	. "chapter09/testing"
 )
 
-// Table-Driven Test
+// TestFib_TableDrivenParallel: Table-Driven Test
 func TestFib_TableDrivenParallel(t *testing.T) {
 	var fibTests = []struct {
 		name     string
@@ -62,7 +62,7 @@ func TestFib(t *testing.T) {
 	}
 }
 
-// Table-Driven Test
+// TestFib_TableDriven: Table-Driven Test
 func TestFib_TableDriven(t *testing.T) {
 	var fibTests = []struct {
 		in       int // input
